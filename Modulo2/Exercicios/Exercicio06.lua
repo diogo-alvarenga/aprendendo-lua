@@ -18,7 +18,12 @@ elseif opc ==2  then
 elseif opc ==3 then
     print(n1," * ", n2, " = ", (n1*n2))
 elseif opc ==4 then
-    print(n1," / ", n2, " = ", (n1/n2))
+    if n2 ~=0 then
+        print(n1," / ", n2, " = ", (n1/n2))    
+    else
+        print("Divisão por 0 não é permitido")
+    end
+    
 else
     print("Opcao invalida")
     goto opcao
