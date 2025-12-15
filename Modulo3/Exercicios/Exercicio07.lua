@@ -21,4 +21,3 @@ atendeCliente(fila)
 atendeCliente(fila)
 atendeCliente(fila)
 atendeCliente(fila)
-
